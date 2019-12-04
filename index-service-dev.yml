@@ -15,3 +15,11 @@ management:
     web:
       exposure:
         include: '*'
+
+spring:
+  rabbitmq:
+    host: 134.175.100.149
+    port: 5672
+    username: zs
+    password: 123
+    virtual-host: /OFzs
